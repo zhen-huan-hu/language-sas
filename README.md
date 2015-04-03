@@ -9,7 +9,7 @@ In the past a few years, I have been mainly using Vim to code my SAS programs. I
 Contributions are greatly appreciated. Please fork this repository and open a pull request to add modifications, patches, etc.
 
 ### Syntax highlighting
-Syntax highlighting supports base SAS syntax up to ver. 9.3; supports highlighting different statment keywords in data step section and procedure section. Also supports highlighting SQL keywords.
+Syntax highlighting supports base SAS syntax up to ver. **9.3**; supports highlighting different statment keywords in **data step section** and **procedure section**. Also supports highlighting SQL procedure keywords.
 
 ![Syntax highlighting](https://cloud.githubusercontent.com/assets/9272721/6988864/f2a92720-da1a-11e4-9dc7-8bb0d4a95800.PNG)
 > One Dark theme is used in the screenshot.
