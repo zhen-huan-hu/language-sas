@@ -1,7 +1,7 @@
 {
   "name": "language-sas",
   "description": "SAS support in Atom",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "repository": "https://github.com/akanosora/language-sas",
   "license": "MIT",
   "engines": {
