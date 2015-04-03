@@ -1,5 +1,6 @@
 '.source.sas':
   'editor':
+    'commentStart': '\\* '
     'increaseIndentPattern': '(?i:(\\bdo\\b(.(?!end;))*$|\\bbegingraph\\b(.(?!endgraph;))*$|^\\s*(proc|data|%macro)\\s+.*;\\s*$))'
     'decreaseIndentPattern': '(?i:(^\\s*(%?end|endgraph|endsas|run|quit|%mend)\\s*;))'
     'indentNextLinePattern': '[^;]\\s*$'
