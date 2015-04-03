@@ -1,0 +1,16 @@
+{
+  "name": "language-sas",
+  "description": "SAS support in Atom",
+  "version": "0.0.0",
+  "homepage": "https://github.com/atom/language-sas",
+  "repository": "https://github.com/atom/language-sas",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "bugs": {
+    "url": "https://github.com/atom/language-sas/issues"
+  }
+}
