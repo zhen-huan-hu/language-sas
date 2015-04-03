@@ -21,11 +21,11 @@ Syntax highlighting supports base SAS syntax up to ver. **9.3**. It can automati
 
 Auto indentation is supported. However, there are some limitations due to how Atom currently implemented its indentation mechanism. I was not able to implement the exact indentation behavior as what I did in the Vim SAS indentation script.
 
-### Install
+## Install
 
 Go to `Atom > Preferences...` then search for **SAS Language** in Install tab.
 
-### To-do
+## To-do
 
 1. Snippets
 2. SAS/STAT syntax highlighting
