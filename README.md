@@ -9,13 +9,19 @@ In the past a few years, I have been mainly using Vim to code my SAS programs. I
 Contributions are greatly appreciated. Please fork this repository and open a pull request to add modifications, patches, etc.
 
 ### Syntax highlighting
-Syntax highlighting supports base SAS syntax up to ver. **9.3**; supports highlighting different statment keywords in **data step section** and **procedure section**. Also supports highlighting SQL procedure keywords.
+
+Syntax highlighting supports base SAS syntax up to ver. **9.3**. It can automatically distinguish different statement keywords with respect to the **data step section** and the **procedure section**. This package also supports highlighting the **SQL procedure** keywords.
 
 ![Syntax highlighting](https://cloud.githubusercontent.com/assets/9272721/6988864/f2a92720-da1a-11e4-9dc7-8bb0d4a95800.PNG)
 > The screenshot used the default One Dark theme.
 
 ### Auto indentation
+
 Auto indentation is supported. However, there is some limitations due to how Atom currently implemented its indentation mechanism. I was not able to implement the exact indentation behavior as what I did in the Vim SAS indentation script.
+
+### Install
+
+Go to ___Atom > Preferences...___ then search for **SAS Language** in Install tab.
 
 ### To-do
 
