@@ -12,7 +12,7 @@ Contributions are greatly appreciated. Please fork this repository and open a pu
 Syntax highlighting supports base SAS syntax up to ver. **9.3**; supports highlighting different statment keywords in **data step section** and **procedure section**. Also supports highlighting SQL procedure keywords.
 
 ![Syntax highlighting](https://cloud.githubusercontent.com/assets/9272721/6988864/f2a92720-da1a-11e4-9dc7-8bb0d4a95800.PNG)
-> One Dark theme is used in the screenshot.
+> The screenshot used the default One Dark theme.
 
 ### Auto indentation
 Auto indentation is supported. However, there is some limitations due to how Atom currently implemented its indentation mechanism. I was not able to implement the exact indentation behavior as what I did in the Vim SAS indentation script.
