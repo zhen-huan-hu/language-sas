@@ -4,4 +4,4 @@ Adds syntax highlighting, auto indentation, and snippets to SAS files in Atom.
 Supports base SAS syntax up to ver. 9.3.
 100% hand written. NOT converted from TextMate.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+![Syntax highlighting](https://cloud.githubusercontent.com/assets/9272721/6988864/f2a92720-da1a-11e4-9dc7-8bb0d4a95800.PNG)
