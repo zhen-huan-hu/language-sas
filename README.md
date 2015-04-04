@@ -26,7 +26,7 @@ Auto indentation is supported. However, there are some limitations due to how At
 The following snippets are supported:
 
 * `if` statement: `if`, `elsif`, `else`
-* `do ... to` statement: `do`
+* `do` statement: `do`, `while`, `until`
 * `select` statement: `select`
 * Array: `array`
 * File input: `infile`
