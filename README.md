@@ -50,4 +50,4 @@ Go to `Atom > Preferences...` then search for **SAS Language** in Install tab.
 Copyright ® 2015 Zhen-Huan Hu. This package is licensed under the MIT license.
 
 SAS and all other SAS Institute Inc. product or service names are registered trademarks or trademarks of
-SAS Institute Inc. in the USA and other countries. ® indicates USA registration.
+SAS Institute Inc. in the USA and other countries.
