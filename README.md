@@ -17,9 +17,7 @@ Syntax highlighting supports base SAS syntax up to ver. **9.3**. It can automati
 
 ### Auto indentation
 
-Auto indentation is supported. However, there are some limitations due to how Atom currently implemented its indentation mechanism. I was not able to implement the exact indentation behavior as what I did in the Vim SAS indentation script.
-
-Right now, please make sure to use `run;` or `quit;` to close **data step** and **procedure** section.
+Just like syntax highlighting, it is completely rewritten. However, there are some limitations due to how Atom currently implements its indentation mechanism. I was not able to implement the exact indentation behavior as what I did in the Vim SAS indentation script. Right now, please make sure to use `run;` or `quit;` to close **data step** and **procedure** section.
 
 ### Snippets
 
@@ -45,6 +43,7 @@ Go to `Atom > Preferences...` then search for **SAS Language** in Install tab.
 * ~~Snippets~~
 * SAS/STAT syntax highlighting
 * PROC IML specific syntax highlighting
+* Improve indentation mechanism?
 
 ## Copyright & License
 
