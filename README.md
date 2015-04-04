@@ -12,7 +12,7 @@ Contributions are greatly appreciated. Please fork this repository and open a pu
 
 Syntax highlighting supports base SAS syntax up to ver. **9.3**. It can automatically distinguish different statement keywords with respect to **data step** and **procedure** section. This package also supports highlighting the **SQL** procedure keywords.
 
-![Syntax highlighting](https://cloud.githubusercontent.com/assets/9272721/6988864/f2a92720-da1a-11e4-9dc7-8bb0d4a95800.PNG)
+![Syntax highlighting](https://cloud.githubusercontent.com/assets/9272721/6994349/efd62fb8-dadb-11e4-8d8e-bc5bbff64cf2.png)
 > The screenshot used the default One Dark theme.
 
 ### Auto indentation
