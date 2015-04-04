@@ -32,7 +32,7 @@ The following snippets are supported:
 * File input: `infile`
 * Hash declaration: `declare`
 * Procedure: `proc`
-* `tables` statement: `table`
+* FREQ - `tables` statement: `table`
 * SQL - create table: `create`
 
 
