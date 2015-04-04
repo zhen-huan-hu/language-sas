@@ -33,7 +33,7 @@ The following snippets are supported:
 * Hash declaration: `declare`
 * Procedure: `proc`
 * FREQ - `tables` statement: `table`
-* SQL - create table: `create`
+√SQL - create table: `create`
 
 
 ## Install
@@ -42,6 +42,6 @@ Go to `Atom > Preferences...` then search for **SAS Language** in Install tab.
 
 ## To-do
 
-- [x] ~~Snippets~~
-- [ ] SAS/STAT syntax highlighting
-- [ ] PROC IML specific syntax highlighting
+* ~~Snippets~~
+* SAS/STAT syntax highlighting
+* PROC IML specific syntax highlighting
