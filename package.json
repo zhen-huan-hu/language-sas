@@ -2,10 +2,10 @@
   "name": "language-sas",
   "description": "SAS support in Atom",
   "keywords": [
+    "language",
     "sas",
     "macro",
     "syntax",
-    "indent",
     "snippet"
   ],
   "version": "0.2.2",
