@@ -40,13 +40,13 @@ The following snippets are supported:
 
 Go to `Atom > Preferences...` then search for **SAS Language** in Install tab.
 
-## To-do
+## To-Do List
 
 * ~~Snippets~~
 * SAS/STAT syntax highlighting
 * PROC IML specific syntax highlighting
 
-## Copyright & license
+## Copyright & License
 
 This package is licensed under the MIT license. Copyright ® Zhen-Huan Hu 2015.
 
