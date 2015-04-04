@@ -1,4 +1,4 @@
-# SAS language support in Atom
+# SAS language support in Atom [![Build Status](https://travis-ci.org/akanosora/language-sas.svg?branch=master)](https://travis-ci.org/akanosora/language-sas)
 
 Adds syntax highlighting, auto indentation, and snippets to SAS files in Atom.
 
