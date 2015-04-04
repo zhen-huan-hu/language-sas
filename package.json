@@ -1,6 +1,13 @@
 {
   "name": "language-sas",
   "description": "SAS support in Atom",
+  "keywords": [
+    "sas",
+    "macro",
+    "syntax",
+    "indent",
+    "snippet"
+  ]
   "version": "0.2.1",
   "repository": "https://github.com/akanosora/language-sas",
   "license": "MIT",
