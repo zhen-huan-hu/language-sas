@@ -33,7 +33,7 @@ The following snippets are supported:
 * Hash declaration: `declare`
 * Procedure: `proc`
 * FREQ - `tables` statement: `table`
-√SQL - create table: `create`
+* SQL - create table: `create`
 
 
 ## Install
