@@ -12,7 +12,7 @@ Contributions are greatly appreciated. Please fork this repository and open a pu
 
 ### Syntax highlighting
 
-Syntax highlighting supports base SAS syntax up to ver. **9.3**. It can automatically distinguish different statement keywords with respect to the **data step section** and the **procedure section**. This package also supports highlighting the **SQL procedure** keywords.
+Syntax highlighting supports base SAS syntax up to ver. **9.3**. It can automatically distinguish different statement keywords with respect to **data step** and **procedure** section. This package also supports highlighting the **SQL** procedure keywords.
 
 ![Syntax highlighting](https://cloud.githubusercontent.com/assets/9272721/6988864/f2a92720-da1a-11e4-9dc7-8bb0d4a95800.PNG)
 > The screenshot used the default One Dark theme.
@@ -20,6 +20,8 @@ Syntax highlighting supports base SAS syntax up to ver. **9.3**. It can automati
 ### Auto indentation
 
 Auto indentation is supported. However, there are some limitations due to how Atom currently implemented its indentation mechanism. I was not able to implement the exact indentation behavior as what I did in the Vim SAS indentation script.
+
+Right now, please make sure to use `run;` or `quit;` to close **data step** and **procedure** section.
 
 ### Snippets
 
