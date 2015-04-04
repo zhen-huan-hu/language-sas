@@ -2,8 +2,6 @@
 
 Adds syntax highlighting, auto indentation, and snippets to SAS files in Atom.
 
-100% hand written. Not converted from TextMate/Sublime.
-
 In the past a few years, I have been mainly using Vim to code my SAS programs. I recently decided to switch to Atom for its better integration with OS X. This SAS language package is my first effort to switch to the new editor. I wrote the Vim SAS [syntax script](http://www.vim.org/scripts/script.php?script_id=3522) and [indentation script](http://www.vim.org/scripts/script.php?script_id=4034) and I feel that Atom allows me to better implement what I did in Vim.
 
 Contributions are greatly appreciated. Please fork this repository and open a pull request to add modifications, patches, etc.
@@ -47,3 +45,10 @@ Go to `Atom > Preferences...` then search for **SAS Language** in Install tab.
 * ~~Snippets~~
 * SAS/STAT syntax highlighting
 * PROC IML specific syntax highlighting
+
+## Copyright & license
+
+This package is licensed under the MIT license. Copyright ® Zhen-Huan Hu 2015.
+
+SAS and all other SAS Institute Inc. product or service names are registered trademarks or trademarks of
+SAS Institute Inc. in the USA and other countries. ® indicates USA registration.
