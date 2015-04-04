@@ -57,7 +57,7 @@
       }
       {
         'name': 'keyword.control.data-step.sas'
-        'match': '\\b(?i:(continue|do|else|end|go|if|leave|link|return|then|to|over|select|until|when|while))\\b'
+        'match': '\\b(?i:(continue|do|else|end|go|if|leave|link|return|then|to|otherwise|over|select|until|when|while))\\b'
       }
       {
         'match': '((^|(?<=;))\\s*)((?i:(abort|array|attrib|by|call|cards|cards4|data|datalines|datalines4|delete|describe|display|drop|error|execute|file|format|infile|informat|input|keep|label|length|list|lostcard|merge|modify|output|put|putlog|redirect|remove|rename|replace|retain|set|update|where|window))\\b)'
