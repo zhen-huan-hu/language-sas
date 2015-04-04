@@ -8,6 +8,12 @@
   'else':
     'prefix': 'else'
     'body': 'else do;\n\t$1\nend;$0'
+  'do while':
+    'prefix': 'while'
+    'body': 'do while ($1);\n\t$2\nend;$0'
+  'do until':
+    'prefix': 'until'
+    'body': 'do until ($1);\n\t$2\nend;$0'
   'do ... to':
     'prefix': 'do'
     'body': 'do ${1:i} = ${2:1} to ${3:n};$0'
