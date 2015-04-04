@@ -17,7 +17,7 @@ Syntax highlighting supports base SAS syntaxes up to **SAS 9.3**. It can automat
 
 ### Auto indentation
 
-Just like syntax highlighting, it is completely rewritten. However, there are some limitations due to how Atom currently implements its indentation mechanism. I was not able to implement the exact indentation behavior as what I did in the Vim SAS indentation script. Right now, please make sure to use `run;` or `quit;` to close **data step** and **procedure** section.
+Just like syntax highlighting, it is completely rewritten. However, there are some limitations due to how Atom currently implements its indentation mechanism. I was not able to implement the exact indentation behavior as what I did in the Vim SAS indentation script. Right now, please make sure to use `run;` or `quit;` to close **data step** and **procedure** sections.
 
 ### Snippets
 
