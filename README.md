@@ -1,6 +1,6 @@
 # SAS language support in Atom
 
-Adds syntax highlighting, and auto indentation to SAS files in Atom.
+Adds syntax highlighting, auto indentation, and snippets to SAS files in Atom.
 
 100% hand written. Not converted from TextMate/Sublime.
 
@@ -21,12 +21,27 @@ Syntax highlighting supports base SAS syntax up to ver. **9.3**. It can automati
 
 Auto indentation is supported. However, there are some limitations due to how Atom currently implemented its indentation mechanism. I was not able to implement the exact indentation behavior as what I did in the Vim SAS indentation script.
 
+### Snippets
+
+The following snippets are supported:
+
+* `if` statement: `if`, `elsif`, `else`
+* `do ... to` statement: `do`
+* `select` statement: `select`
+* Array: `array`
+* File input: `infile`
+* Hash declaration: `declare`
+* Procedure: `proc`
+* `tables` statement: `table`
+* SQL - create table: `create`
+
+
 ## Install
 
 Go to `Atom > Preferences...` then search for **SAS Language** in Install tab.
 
 ## To-do
 
-1. Snippets
-2. SAS/STAT syntax highlighting
-3. PROC IML specific syntax highlighting
+- [x] ~~Snippets~~
+- [ ] SAS/STAT syntax highlighting
+- [ ] PROC IML specific syntax highlighting
