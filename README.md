@@ -1,6 +1,6 @@
 # SAS language support in Atom [![Build Status](https://travis-ci.org/akanosora/language-sas.svg?branch=master)](https://travis-ci.org/akanosora/language-sas)
 
-Adds syntax highlighting, auto indentation, and snippets to SAS files in Atom.
+Adds syntax highlighting, auto indentation, and snippets to SAS and SAS macro files in Atom.
 
 In the past a few years, I have been mainly using Vim to code my SAS programs. I recently decided to switch to Atom for its better integration with OS X. This SAS language package is my first effort to switch to the new editor. I wrote the Vim SAS [syntax script](http://www.vim.org/scripts/script.php?script_id=3522) and [indentation script](http://www.vim.org/scripts/script.php?script_id=4034) and I feel that Atom allows me to better implement what I did in Vim.
 
