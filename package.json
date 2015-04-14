@@ -8,7 +8,7 @@
     "syntax",
     "snippet"
   ],
-  "version": "0.2.3",
+  "version": "0.2.4",
   "repository": "https://github.com/akanosora/language-sas",
   "license": "MIT",
   "engines": {
