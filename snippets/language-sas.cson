@@ -1,4 +1,7 @@
 '.source.sas':
+  'comment':
+    'prefix': 'co'
+    'body': '/* $1 */$0'
   'if':
     'prefix': 'if'
     'body': 'if $1 then do;\n\t$2\nend;$0'
@@ -22,7 +25,7 @@
     'body': 'select (${1:variable});\n\twhen ($2) $3;$4\n\totherwise$5;\nend;$0'
   'array':
     'prefix': 'array'
-    'body': 'array {${2:n}} $1;$0'
+    'body': 'array ${1:name} {${3:n}} ${2:list};$0'
   'infile':
     'prefix': 'infile'
     'body': 'infile ${1:myfile} ${2:dlm = \',\' dsd missover firstobs = 2};\ninput $3;$0'
