@@ -24,8 +24,7 @@
     'include': '#macro'
   }
   {
-    'name': 'keyword.operator.sas'
-    'match': '\\b(?i:(and|eq|ge|gt|in|le|lt|ne|not|or))\\b'
+    'include': '#operator'
   }
   # Data step
   {
@@ -54,6 +53,9 @@
       }
       {
         'include': '#macro'
+      }
+      {
+        'include': '#operator'
       }
       {
         'name': 'keyword.control.data-step.sas'
@@ -107,6 +109,9 @@
         'include': '#macro'
       }
       {
+        'include': '#operator'
+      }
+      {
         'name': 'keyword.control.procedure.sql.sas'
         'match': '\\b(?i:(as|by|case|cross|else|end|except|from|full|group|having|inner|intersect|into|join|left|natural|on|order|outer|right|select|then|union|when|where))\\b'
       }
@@ -147,6 +152,9 @@
       }
       {
         'include': '#macro'
+      }
+      {
+        'include': '#operator'
       }
       {
         'name': 'support.function.procedure.sas'
@@ -278,7 +286,7 @@
     'patterns': [
       {
         'name': 'variable.other.macro.sas'
-        'match': '(&+\\w+)\\b'
+        'match': '(&+)\\w+\\b'
         'captures':
           '1':
             'name': 'punctuation.definition.variable.sas'
@@ -286,6 +294,14 @@
       {
         'name': 'keyword.control.macro.sas'
         'match': '%\\b(?i:(abort|by|copy|display|do|else|end|global|goto|if|include|input|label|let|local|macro|mend|put|return|symdel|syscall|sysexec|syslput|sysrput|then|to|until|window|while))\\b'
+      }
+    ]
+  }
+  'operator': {
+    'patterns': [
+      {
+        'name': 'keyword.operator.sas'
+        'match': '\\b(?i:(and|eq|ge|gt|in|le|lt|ne|not|or))\\b'
       }
     ]
   }
