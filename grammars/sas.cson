@@ -286,7 +286,7 @@
     'patterns': [
       {
         'name': 'variable.other.macro.sas'
-        'match': '(&+\\w+)\\b'
+        'match': '(&+)\\w+\\b'
         'captures':
           '1':
             'name': 'punctuation.definition.variable.sas'
